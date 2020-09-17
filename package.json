@@ -1,0 +1,15 @@
+{
+  "name": "VPDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": "git@github.com:lixianbin1/VPDemo.git",
+  "author": "xianbin <1169411465@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
