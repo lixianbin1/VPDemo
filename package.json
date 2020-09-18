@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "bash":"sh deploy.sh"
   },
   "repository": "git@github.com:lixianbin1/VPDemo.git",
   "author": "xianbin <1169411465@qq.com>",
