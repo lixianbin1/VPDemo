@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/vue.png
+heroImage: /img/logo01.png
 heroText: imgzoom-li
 tagline: 一个可以查看图片(可以缩放,拖拽)的JS插件
 actionText: 快速上手 →

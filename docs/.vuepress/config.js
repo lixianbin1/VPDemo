@@ -1,6 +1,7 @@
 module.exports = {
   title: 'imgzoom-li',
   description: '一个测试vuepress的演示',
+
   base:'/VPDemo/',
   locales: {
     // 键名是该语言所属的子路径
@@ -17,6 +18,8 @@ module.exports = {
     }
   },
   themeConfig: {
+    logo: '/img/logo01.png',
+
     locales: {
       '/': {
         selectText: '选择语言',
@@ -52,7 +55,7 @@ module.exports = {
               children: [
                 {
                   title: '提示',
-                  path: '/guide/page2'
+                  path: '/guide/going'
                 },
               ],
               initialOpenGroupIndex: -1 // 可选的, 默认值是 0
@@ -62,10 +65,10 @@ module.exports = {
             {
               title: '配置',   // 必要的
               collapsable: false, // 可选的, 默认值是 true,
-              sidebarDepth: 1,    // 可选的, 默认值是 1
-             // displayAllHeaders: true,// 展开所有菜单
+              sidebarDepth: 2,    // 可选的, 默认值是 1
               collapsable: false, //展开所有组
               initialOpenGroupIndex:-1,
+              displayAllHeaders:1,
               children: [
                 ['/reference/','介绍'],
                 ['/reference/page1','入门']
